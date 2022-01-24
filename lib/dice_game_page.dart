@@ -120,6 +120,7 @@ class _DiceGamePageState extends State<DiceGamePage> {
                   ),
                 ),
                 onPressed: _showStartButton,
+                onLongPress: _enterCheetCode,
               ),
             ),
           Text(
@@ -145,7 +146,7 @@ class _DiceGamePageState extends State<DiceGamePage> {
         score = 0;
         diceSum = 0;
       } else {
-        score += diceSum;
+       score += diceSum;
         isGameOver = false;
       }
       if (score > highestScore) {
@@ -153,6 +154,11 @@ class _DiceGamePageState extends State<DiceGamePage> {
       }
     });
     print('index1= $index1 index2= $index2 index3=$index3');
+  }
+
+  void _enterCheetCode()
+  {
+
   }
 
   void _showStartButton() {
