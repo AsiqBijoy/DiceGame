@@ -123,7 +123,6 @@ class _DiceGamePageState extends State<DiceGamePage> {
               ),
             ),
           Text(
-            //sdf hjk shdfjlk adfk hadfjk haskldf h
             'Note: If Current Score = 15, then Game is over!',
             style: TextStyle(
                 fontSize: 15, color: Colors.teal, fontWeight: FontWeight.bold),
