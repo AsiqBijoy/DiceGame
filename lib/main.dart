@@ -1,4 +1,4 @@
-import 'package:assignment02/dice_game_page.dart';
+import 'package:dicegame/dice_game_page.dart';
 import 'package:flutter/material.dart';
 
 void main() {
